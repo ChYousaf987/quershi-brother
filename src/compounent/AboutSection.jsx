@@ -52,7 +52,7 @@ const AboutSection = () => {
           <img
             src="/mains-artguru.png"
             alt="About Section"
-            className="w-full max-w-md lg:max-w-full h-[80vh] rounded-xl shadow-lg"
+            className="w-full max-w-md lg:max-w-full h-full  rounded-xl shadow-lg"
           />
         </div>
       </div>
