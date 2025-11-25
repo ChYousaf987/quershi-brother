@@ -27,7 +27,7 @@ const Navbar = () => {
               { name: "HOME", path: "/" },
               { name: "ABOUT US", path: "/about" },
               { name: "CLIENTS", path: "/clint" },
-              { name: "TESTIMONIALS", path: "/testimonials" },
+              { name: "SERVICES", path: "/service" },
               { name: "CONTACT", path: "/contact" },
             ].map((item) => (
               <NavLink
@@ -36,7 +36,7 @@ const Navbar = () => {
                 className={({ isActive }) =>
                   `font-bold text-sm tracking-wider transition-all duration-300 px-5 py-3 rounded-3xl ${
                     isActive
-                      ? "bg-[#CFA209] text-white shadow-xl scale-105"
+                      ? "bg-[#00FE00] text-white shadow-xl scale-105"
                       : "text-gray-700 hover:text-[#CFA209] hover:bg-gray-100"
                   }`
                 }
@@ -72,7 +72,7 @@ const Navbar = () => {
             { name: "HOME", path: "/" },
             { name: "ABOUT US", path: "/about" },
             { name: "CLIENTS", path: "/clint" },
-            { name: "TESTIMONIALS", path: "/testimonials" },
+            { name: "service", path: "/service" },
             { name: "CONTACT", path: "/contact" },
           ].map((item) => (
             <NavLink

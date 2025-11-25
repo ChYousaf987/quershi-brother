@@ -5,6 +5,7 @@ import Home from "./compounent/Home";
 import About from "./compounent/About";
 import Clint from "./compounent/Clint";
 import Contact from "./compounent/Contact";
+import Services from "./compounent/Services";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/clint" element={<Clint />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/service" element={<Services />} />
       </Routes>
     </BrowserRouter>
   );
